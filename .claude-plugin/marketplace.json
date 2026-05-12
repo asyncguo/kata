@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "me",
+  "name": "kata",
   "description": "Personal workflow shortcuts for coding agents: session handoff, experience distillation, status snapshot, and session recap.",
   "owner": {
     "name": "asyncguo",
@@ -8,12 +8,12 @@
   },
   "plugins": [
     {
-      "name": "me",
-      "description": "Personal workflow shortcuts: session handoff, experience distillation, status snapshot, and session recap. Invoke with /me handoff, /me distill, /me status, or /me recap.",
+      "name": "kata",
+      "description": "Personal workflow shortcuts: session handoff, experience distillation, status snapshot, and session recap. Invoke with /kata handoff, /kata distill, /kata status, or /kata recap.",
       "version": "1.0.0",
       "category": "development",
-      "source": "./skills/me",
-      "homepage": "https://github.com/asyncguo/me",
+      "source": "./skills/kata",
+      "homepage": "https://github.com/asyncguo/kata",
       "skills": ["./"],
       "strict": false
     }

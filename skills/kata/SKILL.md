@@ -1,18 +1,18 @@
 ---
-name: me
+name: kata
 description: "Personal workflow shortcuts: session handoff, experience distillation, status snapshot, and session recap. Manual invocation only."
 when_to_use: "handoff, distill, status, recap, 交接, 沉淀, 总结会话, 会话状态"
 metadata:
   version: "1.0.0"
 ---
 
-# Me: Personal Workflow Shortcuts
+# Kata: Personal Workflow Shortcuts
 
 Quick operations for session lifecycle. Each sub-command does one thing fast, then stops.
 
 ## Mode Routing
 
-Route by the first argument after `/me`:
+Route by the first argument after `/kata`:
 
 | Argument | Mode |
 |----------|------|
