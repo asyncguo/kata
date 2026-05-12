@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "me",
+  "description": "Personal workflow shortcuts for coding agents: session handoff, experience distillation, status snapshot, and session recap.",
+  "owner": {
+    "name": "asyncguo",
+    "email": "async.gxb@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "me",
+      "description": "Personal workflow shortcuts: session handoff, experience distillation, status snapshot, and session recap. Invoke with /me handoff, /me distill, /me status, or /me recap.",
+      "version": "1.0.0",
+      "category": "development",
+      "source": "./skills/me",
+      "homepage": "https://github.com/asyncguo/me",
+      "skills": ["./"],
+      "strict": false
+    }
+  ]
+}
